@@ -1,0 +1,44 @@
+
+  h3,h1{
+    text-align: center;
+  }
+  input[type=text]{
+    width:30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #d9dbf3;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+    
+  }
+  body{
+      background-color: #ffc2d4;
+  }
+ 
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #383956;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #d9dbf3;
+  }
+  
+  .button:hover {background-color: #383956}
+  
+  .button:active {
+    background-color: #383956;
+    box-shadow: 0 5px #d9dbf3;
+    transform: translateY(4px);
+  }
+
+  
